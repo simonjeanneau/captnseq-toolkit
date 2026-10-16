@@ -1,10 +1,10 @@
 [build-system]
-requires = ["setuptools>=64", "setuptools-scm>=8"]
+requires = ["setuptools>=64"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "captnseq-toolkit"
-version = "0.1.1"
+version = "0.1.2"
 description = "Analysis tools for CAPTn-seq transposon-insertion sequencing data (used by nf-core/captnseq)"
 readme = "README.md"
 license = { text = "MIT" }
@@ -29,8 +29,6 @@ Pipeline = "https://github.com/nf-core/proposals/issues/173"
 
 [tool.setuptools.packages.find]
 where = ["src"]
-
-[tool.setuptools_scm]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
