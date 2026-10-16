@@ -4,6 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "captnseq-toolkit"
+version = "0.1.1"
 dynamic = ["version"]
 description = "Analysis tools for CAPTn-seq transposon-insertion sequencing data (used by nf-core/captnseq)"
 readme = "README.md"
