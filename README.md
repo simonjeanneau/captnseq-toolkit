@@ -27,4 +27,4 @@ pip install -e ".[test]"
 pytest
 ```
 
-Releases are tagged `vX.Y.Z` (version comes from git tags via setuptools-scm).
+Releases are tagged `vX.Y.Z`. The version is set by hand in `pyproject.toml` and must match the tag: the Bioconda recipe builds from the GitHub tag and checks that `captnseq-toolkit --version` equals the recipe version.
