@@ -3,13 +3,14 @@
 import argparse
 import sys
 
-from captnseq_toolkit import __version__, essentiality, sam2sites, sites2genes
+from captnseq_toolkit import __version__, aggregate, essentiality, sam2sites, sites2genes
 
 # name -> (module, one-line help). Each module provides add_arguments(parser) and run_args(args).
 SUBCOMMANDS = {
     "sam2sites": (sam2sites, "SAM -> insertion sites (BED + bedGraph tracks)"),
     "sites2genes": (sites2genes, "insertion sites -> per-gene insertion counts / index"),
     "essentiality": (essentiality, "per-gene counts -> essential / ambiguous / non-essential calls"),
+    "aggregate": (aggregate, "per-sample gene tables -> compiled IC / RC / BT matrices"),
 }
 
 
