@@ -1,8 +1,19 @@
+# SPDX-License-Identifier: GPL-3.0-only
+#
+# Based on tradis_essentiality.R from Bio-Tradis, Copyright (c) 2013 Wellcome Trust Sanger
+# Institute, licensed under the GNU General Public License, version 3. This module is therefore
+# distributed under the same licence (see LICENSE-GPL-3.0). This file is a modified version
+# of the original (Python re-port), 2026.
 """Classify genes as essential / ambiguous / non-essential from sites2genes output
 (Python re-port of tradis_essentiality_wscore.R). Writes QC / changepoint plots as PDF.
 
 Ported verbatim from the CAPTn-seq Snakemake pipeline; only the entrypoint changed, plus an
 explicit Agg backend so it runs headless in containers / HPC jobs.
+
+Based on the essentiality analysis tradis_essentiality.R of Bio-Tradis (GPLv3):
+https://github.com/sanger-pathogens/Bio-Tradis
+If you use it, please cite Barquist et al. 2016, Bioinformatics 32(7):1109-1111,
+doi:10.1093/bioinformatics/btw022.
 """
 
 # Faithful re-port of tradis_essentiality_wscore.R

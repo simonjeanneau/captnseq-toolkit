@@ -2,6 +2,9 @@
 
 Ported verbatim from the CAPTn-seq Snakemake pipeline (pipeline/scripts/sam2sites.py);
 only the entrypoint changed (argparse instead of the injected `snakemake` object).
+
+Based on sam2sites.py from HDTM_tools (Frederic Grenier, MIT licence):
+https://github.com/fredericQC/HDTM_tools
 """
 
 import argparse

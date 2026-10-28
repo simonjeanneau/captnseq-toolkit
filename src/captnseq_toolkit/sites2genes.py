@@ -6,6 +6,9 @@ Usage: captnseq-toolkit sites2genes --features CDS.bed --sample intersect.bed
 
 Ported verbatim from the CAPTn-seq Snakemake pipeline (pipeline_ref/scripts/sites2genes.py);
 only the entrypoint changed.
+
+Based on sites2genes.py from HDTM_tools (Frederic Grenier, MIT licence):
+https://github.com/fredericQC/HDTM_tools
 """
 
 import argparse

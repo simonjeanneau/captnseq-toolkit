@@ -7,7 +7,7 @@ name = "captnseq-toolkit"
 version = "0.2.0"
 description = "Analysis tools for CAPTn-seq transposon-insertion sequencing data (used by nf-core/captnseq)"
 readme = "README.md"
-license = { text = "MIT" }
+license = { text = "MIT AND GPL-3.0-only" }
 authors = [{ name = "Simon Jeanneau" }]
 requires-python = ">=3.9"
 dependencies = [

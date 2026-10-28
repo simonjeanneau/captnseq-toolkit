@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Credit HDTM_tools and Bio-Tradis (README, module docstrings, `THIRD_PARTY_NOTICES.md`). The `essentiality` module, based on Bio-Tradis, is licensed GPL-3.0-only (`LICENSE-GPL-3.0`); the rest stays MIT.
+
 ## 0.2.0 - 2026-10-27
 
 - New `aggregate` subcommand (from the pipeline's `wrapper_BTA` / `BTAggregate`): compiles the per-sample `essentiality` outputs into run-level insertion-count (IC), read-count (RC) and binary essentiality (BT) gene x sample tables.
